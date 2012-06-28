@@ -1,7 +1,7 @@
 {
-    "name" : "vandpibe/skeleton",
+    "name" : "vandpibe/generator",
     "type" : "library",
-    "description" : "Skeleton",
+    "description" : "Generator",
     "license" : "MIT",
     "authors" : [{
         "name" : "Henrik Bjornskov",
@@ -9,12 +9,14 @@
     }],
     "autoload" : {
         "psr-0" : {
-            "Vandpibe\\Skeleton" : "lib"
+            "Vandpibe\\Generator" : "lib"
         }
     },
     "require" : {
-        "php"                : ">=5.3.3"
+        "php" : ">=5.3.3"
     },
     "require-dev" : {
+        "silex/silex" : "dev-master",
+        "cilex/cilex" : "dev-master"
     }
 }

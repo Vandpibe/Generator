@@ -13,6 +13,10 @@ class GeneratorServiceProviderTest extends \PHPUnit_Framework_TestCase
 {
     public function setUp()
     {
+        if (!class_exists('Silex\Application')) {
+            $this->markTestSkipped();
+        }
+
         $this->application = new Application;
         $this->provider = new GeneratorServiceProvider;
     }

@@ -16,7 +16,8 @@
         "php" : ">=5.3.3"
     },
     "require-dev" : {
-        "silex/silex" : "dev-master",
-        "cilex/cilex" : "dev-master"
+        "silex/silex" : "~1.0@dev",
+        "cilex/cilex" : "~1.0@dev",
+        "cilex/console-service-provider" : "~1.0@dev"
     }
 }
